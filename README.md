@@ -1,50 +1,44 @@
-# AtomGame
+# 🚀 AtomGame
 
-Un simulateur interactif d'atomes développé en **Rust (2024)** qui simule les interactions physiques entre particules subatomiques (protons, neutrons et électrons).
+Un petite projet sympa pour voir comment les atomes se comportent dans un simulateur graphique. Développé en **Rust (2024)** avec une bonne grosse dose d'électromagnétisme et de chaos.
 
-## Description
+## C'est quoi ?
 
-AtomGame est un projet éducatif qui simule en temps réel le comportement de particules chargées selon les principes de l'électromagnétisme. Les particules se repoussent en fonction de leurs charges, et lorsque des protons et des neutrons se rapprochent suffisamment, ils forment des noyaux atomiques.
+Faut imaginer des trucs minuscules (protons, neutrons, électrons) qui se repoussent pas mal les uns les autres et qui essaient de former des atomes. C'est visuellement rigolo et c'est pas mal pour comprendre comment ça marche un atome sans avoir besoin d'un microscope.
 
-## Fonctionnalités
+## What's in the box ?
 
-- 🎯 Simulation physique des forces de répulsion électrostatique
-- 🧬 Formation automatique de noyaux (protons + neutrons)
-- 📊 Rendu graphique en temps réel avec macroquad
-- 🎮 Gestion dynamique des particules et atomes
+- Des particules qui se repoussent selon les lois de la physique
+- Des noyaux qui se forment automatiquement quand c'est le moment
+- Du rendu temps réel avec macroquad (on voit vraiment ce qu'il se passe)
+- Voilà, c'est sympa
 
-## Technologies
+## Stack
 
-- **Langage** : Rust (2024)
-- **Framework graphique** : [macroquad](https://github.com/not-fl3/macroquad) 0.4.14
-- **Générateur aléatoire** : rand 0.8
+- **Rust (2024)** - le langage du projet
+- **[macroquad](https://github.com/not-fl3/macroquad) 0.4.14** - pour les jolis graphiques
+- **rand 0.8** - pour les nombres un peu aléatoires
 
-## Installation
+## Comment le lancer ?
 
-Assurez-vous d'avoir [Rust](https://www.rust-lang.org/) installé, puis :
+T'as besoin de Rust, alors installe-le d'abord si c'est pas fait.
 
 ```bash
-git clone <votre-repo>
+git clone <ton-repo>
 cd AtomGame
-cargo build --release
-```
-
-## Utilisation
-
-Pour lancer le simulateur :
-
-```bash
 cargo run --release
 ```
 
-## Structure du Projet
+Boom, c'est lancé.
+
+## Y'a quoi à l'intérieur ?
 
 ```
 src/
-├── main.rs          # Logique principale du simulateur
-Cargo.toml           # Configuration du projet
+├── main.rs          # Le cœur du truc
+Cargo.toml           # La config
 ```
 
-## Licence
+## License
 
-Libre d'utilisation
+T'en fais ce que tu veux
